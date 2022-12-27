@@ -1,0 +1,63 @@
+ol{
+  text-align: center;
+  list-style: none;
+}
+#menu1{
+  display: inline;
+}
+body{
+  background-color: hsla(55, 80%, 90%, 1);
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: justify;
+  width: auto;
+}
+a:link{
+  background-color: hsla(15, 100%, 75%, 1);
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 0.8em;
+  box-shadow: 1px 1px 5px grey;
+}
+a:hover{
+  background-color: hsla(20, 75%, 85%, 1);
+}
+a:active{
+  background-color: hsla(15, 100%, 75%, 1);
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+a:visited{
+  color: black;
+}
+h3{
+  font-family: 'Squada One', cursive;
+  font-size: 30px;
+  color: hsla(15, 90%, 20%, 1)
+}
+p, ul, #menu1, #legenda{
+  font-family: 'Nanum Gothic', sans-serif;
+  color: hsla(15, 90%, 20%, 1)
+}
+p{
+  margin-left: 40px;
+  
+}
+#lista{
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 10px;
+  width: auto;
+}
+#legenda{
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
